@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-box {
+  width: 100%;
+  height: 2700px;
+  margin-top: 0px;
+  background: linear-gradient(to bottom,
+    #001F3F 0%,
+    #001F3F 10%,
+    #3A6D8C 50%,
+    #6A9Ab0 90%,
+    #EAD8B1 100%,
+    #ff00ff 100%
+  );
+}
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4rem;
+  height: 500px;
+  font-size: 1.5rem;
+  color: white;
+  padding: 10px;
+}
+
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid #00ffff; /* cursor */
+  width: fit-content;
+  animation: typing 3s steps(30, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.profile {
+  height: 18rem;
+  width: 20rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  border: 10px solid #3A6D8C;
+  border-radius: 50%;
+  background-color:#6a9ab0;
+}
+
+.about{
+    color: white;
+    font-size: 1.1rem;
+    margin-left: 3.2rem;
+    margin-top: 2.5rem;
+}
+
+
+.skills{
+  color: white;
+  font-size: 1.2rem;
+    padding: 20px;
+    margin-left: 2.5rem;
+}
+
+.projects {
+  margin-top: 2rem;
+    color: white;
+  font-size: 1.2rem;
+    padding: 20px;
+    margin-left: 2.5rem;
+}
+
+.webs{
+  height: 500px;
+  width: 800px;
+  border: 5px solid #386a89;
+  border-radius: 2%;
+}
+.games{
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.game{
+  height: 450px;
+  width: 400px;
+border: 5px solid #386a89;
+border-radius: 2%;
+}
+
+.resume{
+  margin-top: 2rem;
+  margin-left: 3.5rem;
+  color: white;
+}
+
+.contacts{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: white;
+}
